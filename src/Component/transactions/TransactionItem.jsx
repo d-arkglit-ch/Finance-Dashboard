@@ -45,20 +45,20 @@ export const TransactionItem = ({ transaction, onEdit, onDelete }) => {
         </div>
 
         {role === 'admin' && (
-          <div className="flex gap-1 opacity-0 group-hover:opacity-100 transition-all transform translate-x-2 group-hover:translate-x-0">
+          <div className="flex gap-1.5 opacity-100 transition-all">
             <button
               onClick={() => onEdit(transaction)}
-              className="p-1.5 text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-white dark:hover:bg-gray-600 rounded-lg transition-colors"
+              className="p-2 text-gray-500 hover:text-primary-600 dark:hover:text-primary-400 bg-gray-100 lg:bg-transparent hover:bg-gray-200 dark:bg-gray-700 lg:dark:bg-transparent dark:hover:bg-gray-600 rounded-lg transition-colors shadow-sm lg:shadow-none"
               title="Edit"
             >
-              <Edit2 size={14} />
+              <Edit2 size={16} />
             </button>
             <button
               onClick={() => onDelete(transaction.id)}
-              className="p-1.5 text-gray-400 hover:text-red-500 dark:hover:text-red-400 hover:bg-white dark:hover:bg-gray-600 rounded-lg transition-colors"
+              className="p-2 text-gray-500 hover:text-red-500 dark:hover:text-red-400 bg-gray-100 lg:bg-transparent hover:bg-gray-200 dark:bg-gray-700 lg:dark:bg-transparent dark:hover:bg-gray-600 rounded-lg transition-colors shadow-sm lg:shadow-none"
               title="Delete"
             >
-              <Trash2 size={14} />
+              <Trash2 size={16} />
             </button>
           </div>
         )}
