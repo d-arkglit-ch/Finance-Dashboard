@@ -2,7 +2,7 @@
 
 A sleek, responsive, and high-contrast financial management dashboard built with React 19 and Tailwind CSS 4. This application features a **True Black** professional aesthetic, data-driven visualizations, and a sophisticated typographic experience.
 
-![Finance Dashboard](file:///C:/Users/Shourya%20gupts/.gemini/antigravity/brain/4419c748-9b64-453f-86a9-b2d7fbdeee91/final_dashboard_font_verification_1775387289725.png)
+
 
 ##  Features
 
